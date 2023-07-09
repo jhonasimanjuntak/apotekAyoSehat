@@ -1,0 +1,72 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.row .col {
+    background-color: rgb(48, 248, 175);
+    max-width: 100%;
+    height: 575px;
+    margin-top: 100px;
+    border-radius: 50px;
+}
+
+.background {
+    background-color: rgb(152, 7, 236);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+}
+
+form .form-control {
+    border-radius: 30px;
+    max-width: 80%;
+    height: 70px;
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+form .form-label {
+    margin-left: 38px;
+}
+
+form .form-text {
+    margin-left: 38px;
+}
+
+button .btn {
+    border-radius: px;
+    margin-bottom: 100px
+}
+
+.card {
+    margin-top: 168px;
+    margin-bottom: 181px;
+}
+
+span img {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+img {
+    margin-top: 50px;
+    max-width: 80%;
+}
+
+
+/* script untuk gambar di layar hp*/
+
+@media (max-width: 576px) {
+    .col-sm-6 {
+        display: none;
+    }
+}
+
+.container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
